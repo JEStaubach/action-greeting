@@ -1,0 +1,26 @@
+{
+  "name": "@jsdevtools/action-greeting",
+  "version": "1.0.0",
+  "description": "Comment on new issues with a greeting.",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
+    "@jestaubach/actions": "github:JEStaubach/actions#dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEStaubach/action-greeting"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEStaubach/action-greeting/issues"
+  },
+  "homepage": "https://github.com/JEStaubach/action-greeting#readme"
+}
