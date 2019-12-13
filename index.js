@@ -9,7 +9,7 @@ async function run() {
   //const octokit = new github.GitHub(myToken);
   const graphqlWithAuth = graphql.defaults({
     headers: {
-      authorization: `token secret123`
+      authorization: `token ${myToken}`
     }
   });
   const context = github.context;
